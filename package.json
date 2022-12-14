@@ -9,6 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "heatmap.js": "^2.0.5",
+    "maptalks": "^1.0.0-rc.17",
+    "maptalks.three": "^0.35.1",
+    "three": "^0.147.0",
     "vue": "^2.6.14"
   },
   "devDependencies": {

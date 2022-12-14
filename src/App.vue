@@ -1,28 +1,34 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <HelloThree/> -->
+    <!-- <TerrainRaycast/> -->
+    <!-- <twoDHeatmap/> -->
+    <!-- <threeDHeatmap/> -->
+    <demoThreeVue/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloThree from './components/HelloThree.vue'
+import TerrainRaycast from '@/components/TerrainRaycast'
+import twoDHeatmap from '@/components/twoDHeatmap'
+import threeDHeatmap from '@/components/threeDHeatmap'
+import demoThreeVue from './components/demoThree.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloThree,
+    TerrainRaycast,
+    twoDHeatmap,
+    threeDHeatmap,
+    demoThreeVue
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body{
+    margin: 0;
 }
 </style>
